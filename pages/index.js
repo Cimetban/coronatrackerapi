@@ -41,7 +41,7 @@ export default function IndexPage() {
       <Stats url="https://covid19.mathdro.id/api/"></Stats>
       <CountrySelector></CountrySelector>
 
-      <div className="message">The best way to prevent illness is to avoid being exposed to this virus ! For more info visit <a href="https://www.cdc.gov/coronavirus/2019-ncov/prepare/prevention.html">CDC website</a></div>
+      <div className="message">The best way to prevent illness is to avoid being exposed to this virus ! For more info visit <a href="https://www.cdc.gov/coronavirus/2019-ncov/prepare/prevention.html" target="_blank">CDC website</a></div>
       <div className="message1">Develop by : <a href="https://www.linkedin.com/in/aleksandar-georgievski-017b4576"> Aleksandar G</a></div>
 
     </div>
