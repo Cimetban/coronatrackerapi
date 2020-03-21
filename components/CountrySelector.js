@@ -14,7 +14,7 @@ export default function CountrySelector() {
   return (
     <div>
       <h2>Currently Showing: {selectedCountry}</h2>
-      <select
+      <select className="tab"
         onChange={e => setSelectedCountry(countries.countries[e.target.value])}
         defaultValue={selectedCountry}
       >
